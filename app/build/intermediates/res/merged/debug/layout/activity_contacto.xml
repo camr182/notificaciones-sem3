@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    android:id="@+id/activity_contacto">
+
+    <TextView
+        android:id="@+id/tvContactoTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contacto_titulo"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textAlignment="center"/>
+
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:id="@+id/llcorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvContactoTitulo">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvContactoTitulo"
+            android:src="@drawable/mensaje_48"
+
+            android:layout_gravity="center_vertical"
+            />
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginLeft="15dp"
+            android:id="@+id/tilCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvContactoTitulo"
+            app:hintTextAppearance="@style/FloatingLabel"
+            android:textColorHint="@color/colorPrimaryDark"
+            app:counterEnabled="true"
+            app:counterMaxLength="30"
+            app:counterOverflowTextAppearance="@style/AppTheme.CharacterCounter"
+
+            >
+
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:id="@+id/inCorreo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/contacto_correo"
+                android:theme="@style/EditText"
+
+
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/llasunto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llcorreo">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvContactoTitulo"
+            android:src="@drawable/en_pc_48"
+
+            android:layout_gravity="center_vertical"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginLeft="15dp"
+            android:id="@+id/tilAsunto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:hintTextAppearance="@style/FloatingLabel"
+            android:textColorHint="@color/colorPrimaryDark"
+
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/inAsunto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/contacto_asunto"
+                android:theme="@style/EditText"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llmensaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llasunto">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvContactoTitulo"
+            android:src="@drawable/bol_grafo_48"
+
+            android:layout_gravity="center_vertical"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginLeft="15dp"
+            android:id="@+id/tilMensaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tilAsunto"
+            app:hintTextAppearance="@style/FloatingLabel"
+            android:textColorHint="@color/colorPrimaryDark"
+            app:counterEnabled="true"
+            app:counterMaxLength="100"
+            app:counterOverflowTextAppearance="@style/AppTheme.CharacterCounter"
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/inMensaje"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/EditText"
+                android:hint="@string/contacto_mensaje"
+
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/btnEnviarCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contacto_boton_enviar"
+        android:layout_below="@+id/llmensaje"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="41dp" />
+
+
+</LinearLayout>

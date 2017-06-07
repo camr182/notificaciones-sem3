@@ -1,0 +1,7 @@
+#Wed Jun 07 06:13:56 CEST 2017
+base.0=C\:\\Users\\minecraft\\Desktop\\petagram-master2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_60cdb33adc3f5d0e677f8df6da94ca91031105fa
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\minecraft\\Desktop\\petagram-master2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_5e5302500e76195cf06cc5ca7439b6235cdc675b\\classes.dex
+base.1=C\:\\Users\\minecraft\\Desktop\\petagram-master2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_5e5302500e76195cf06cc5ca7439b6235cdc675b
+file.0=C\:\\Users\\minecraft\\Desktop\\petagram-master2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_60cdb33adc3f5d0e677f8df6da94ca91031105fa\\classes.dex

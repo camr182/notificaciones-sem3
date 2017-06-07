@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tvContacto"
+    android:layout_width="wrap_content"
+    android:layout_height="170dp"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    card_view:cardCornerRadius="@dimen/corner_radius_cardview">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="6dp"
+        >
+        <ImageView
+            android:id="@+id/imgFotoPerfilCv"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/mascota1"
+            />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            >
+
+            <TextView
+                android:id="@+id/tvLikesPerfilCv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="@dimen/nombre_cardview"
+                />
+            <ImageView
+                android:id="@+id/imgBone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/hueso_color"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
