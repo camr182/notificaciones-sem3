@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "351318142911",
+    "firebase_url": "https://petshop-80e0b.firebaseio.com",
+    "project_id": "petshop-80e0b",
+    "storage_bucket": "petshop-80e0b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:351318142911:android:1a8743c2412ac3fe",
+        "android_client_info": {
+          "package_name": "com.example.minecraft.petshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "351318142911-tut1jdo0353gsj0ef4voav715936t276.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.minecraft.petshop",
+            "certificate_hash": "2164fc2fb61d5e75aeefb744d9c6863df12461f7"
+          }
+        },
+        {
+          "client_id": "351318142911-7cq41poprjqku8o5qec8gkfjjb86q7tu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjrpsAeyHVQ30fC6YFDviXoAbogS0V-nQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "351318142911-7cq41poprjqku8o5qec8gkfjjb86q7tu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

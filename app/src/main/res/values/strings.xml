@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">PetShop</string>
+    <string name="descr_imagen">Mascota</string>
+    <string name="actionbar_acerca_de">Acerca de ..</string>
+    <string name="actionbar_contacto">Contacto</string>
+    <string name="petagram">Petagram</string>
+    <string name="config_cuenta">Escribe tu usuario</string>
+    <string name="actionbar_configuracion_cuenta">Configurar Cuenta</string>
+    <string name="actionbar_notificaciones">Recibir Notificaciones</string>
+    <string name="contacto_correo">Ingresa tu correo</string>
+    <string name="contacto_asunto">Ingresa el asunto</string>
+    <string name="contacto_mensaje">Ingresa tu mensaje</string>
+    <string name="contacto_titulo">Dejanos un mensaje</string>
+    <string name="contacto_boton_enviar">Enviar Mensaje</string>
+    <string name="detalle_mascota_guardar">Guardar</string>
+    <string name="mensaje_error_correo">Debes ingresar un correo válido</string>
+    <string name="mensaje_error_asunto">Debes el asunto</string>
+    <string name="mensaje_error_mensaje">Debes ingresar un mensaje válido</string>
+
+    <string name="cargando">Loading</string>
+
+</resources>

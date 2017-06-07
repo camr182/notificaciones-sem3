@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/detalleMascota"
+        android:title="Detalle Mascota"
+        android:icon="@drawable/star"
+        app:showAsAction="ifRoom"
+        ></item>
+
+
+    <item
+        android:id="@+id/acerca"
+        android:title="@string/actionbar_acerca_de"
+        app:showAsAction="withText"
+        android:orderInCategory="102"
+        >
+    </item>
+
+    <item
+        android:id="@+id/contacto"
+        android:title="@string/actionbar_contacto"
+        android:orderInCategory="101"
+        >
+
+    </item>
+
+    <item
+        android:id="@+id/configurarCuenta"
+        android:title="@string/actionbar_configuracion_cuenta"
+        android:orderInCategory="103"
+        >
+
+    </item>
+
+    <item
+        android:id="@+id/recibirNotificaciones"
+        android:title="@string/actionbar_notificaciones"
+        android:orderInCategory="103"
+        >
+
+    </item>
+
+
+</menu>
